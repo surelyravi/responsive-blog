@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Post - Blogify</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Blogify</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" class="theme-btn">🌙</button>
+  </header>
+
+  <!-- Blog Post -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Understanding Responsive Design</h1>
+      <p>Learn how websites can adapt beautifully to every screen size using modern CSS techniques.</p>
+    </div>
+  </section>
+
+  <main class="blog-detail" style="max-width:800px; margin:auto; padding:2rem;">
+    <img src="assets/post1.png" alt="Blog Banner" style="width:100%; border-radius:10px; margin-bottom:20px;">
+    <p>
+      Responsive design ensures that your website looks great on all devices — from large desktop monitors to small mobile screens.
+      Using CSS Grid, Flexbox, and media queries, you can build layouts that automatically adjust to different viewports.
+    </p>
+    <p>
+      In this blog, we explore practical techniques to make your design adaptive, scalable, and user-friendly.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Blogify | Built with ❤️ using HTML, CSS, and JavaScript</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

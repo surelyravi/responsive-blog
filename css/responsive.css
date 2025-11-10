@@ -1,0 +1,43 @@
+/* ==========================
+   Extra Responsive Tweaks
+========================== */
+
+/* Tablet screens */
+@media (max-width: 992px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    padding: 1.5rem;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .hero-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .about-content, .blog-detail {
+    padding: 1rem;
+  }
+}
